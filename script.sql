@@ -11,7 +11,6 @@ CREATE TABLE empresa (
     rua VARCHAR(45) NOT NULL,
     bairro VARCHAR(45) NOT NULL,
     numero INT NOT NULL
-
 );
 
 INSERT INTO empresa VALUES(null, "Riachuelo", "00.038.166/0002-88", "241eadww123aw", "Rua Delurdes", "Vila Sônia", 0);
@@ -28,7 +27,6 @@ CREATE TABLE usuario (
     email VARCHAR(45) NOT NULL,
     senha VARCHAR(100) NOT NULL,
     tipo_usuario INT NOT NULL
-
 )AUTO_INCREMENT=100;
 
 CREATE TABLE computador (
@@ -55,7 +53,6 @@ CREATE TABLE disco_dinamico (
     usado float,
     porcentagem_usado float,
     livre float
-
 )AUTO_INCREMENT=300;
 
 CREATE TABLE cpu_dinamica (
@@ -68,7 +65,6 @@ CREATE TABLE cpu_dinamica (
     ociosa FLOAT,
     procedimentos_adiados FLOAT,
     frequencia FLOAT
-
 ) AUTO_INCREMENT=500;
 
 CREATE TABLE memoria_dinamica (
@@ -84,7 +80,6 @@ CREATE TABLE memoria_dinamica (
     inativa float,
     buffer float,
     compartilhada float
-
 )AUTO_INCREMENT=201;
 
 CREATE TABLE swap_dinamica (
@@ -96,5 +91,4 @@ CREATE TABLE swap_dinamica (
     usada float,
     porcentagem_usada float,
     livre float
-
 )AUTO_INCREMENT=301;    
